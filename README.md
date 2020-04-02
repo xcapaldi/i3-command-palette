@@ -1,7 +1,7 @@
 # i3-command-palette
 Parse i3 configuration to generate list of commands or run a command palette.
 
-![Generated cheatsheet](cheatsheet.png?raw=true "Generated cheatsheet")↩
+![Generated cheatsheet](cheatsheet.png?raw=true "Generated cheatsheet")
 
 ## Philosophy
 
@@ -66,7 +66,7 @@ Typically the principle modifier key is set with a variable in the i3 configurat
 set $mod Mod4
 ```
 
-By default, the script assumes this variable is $mod but you can change it with with -v flag.
+By default, the script assumes this variable is $mod but you can change it with with the -v flag.
 
 ### -m [MOD], --mod
 
@@ -80,7 +80,7 @@ If you prefer you can set it to rofi with the -r flag.
 
 ### -p [PROMPT], --prompt [PROMPT]
 
-The default prompt for rofi and dmenu is command palette:
+The default prompt for rofi and dmenu is "command palette:"
 You can change it to another string with this flag.
 
 ### -l, --list
